@@ -3,11 +3,13 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
+
 #define BLOCK_DIM 1024
 
 int main(int argc, char* argv[])
 {
  FILE *file;
+	
  unsigned char buffer[BLOCK_DIM];
  int n;
  int pid, status;
